@@ -1,6 +1,11 @@
 # Visual Studio Code
 > Esto es una personalización sobre Visual Studio Code.
 
+<p align="center">
+  <img src="showcase/visual.png" alt="urbix" width="900" height="400">
+</p>
+
+
 ## 1º Paso
 
 Descargar el json de la configuracion y pegarlo en la siguiente ruta:
