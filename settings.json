@@ -1,7 +1,7 @@
 {
   //Configuración de Extensiones//
 
-  "workbench.colorTheme": "Palenight Operator",
+  "workbench.colorTheme": "Catppuccin Frappé",
   "workbench.iconTheme": "eq-material-theme-icons",
   "editor.matchBrackets": "never",
 
