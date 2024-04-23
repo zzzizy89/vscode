@@ -23,7 +23,7 @@ Descargar las siguientes extensiones:
 + Image preview
 + Live Server
 + Material Theme Icons
-+ Palenight Theme
++ Catppuccin for VScode
 + Path Intellisense
 + Prettier - Code formatter
 + Subtle Match Brackets
