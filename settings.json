@@ -1,29 +1,30 @@
 {
-  //Configuración de Extensiones//
-
-  "workbench.colorTheme": "Catppuccin Frappé",
-  "workbench.iconTheme": "eq-material-theme-icons",
-  "editor.matchBrackets": "never",
-
-  //Configuración visual del editor//
-
-  "workbench.sideBar.location": "right",
-  "workbench.activityBar.location": "hidden",
-  "workbench.editor.showTabs": "single",
-  "editor.minimap.enabled": false,
-  "editor.scrollbar.vertical": "hidden",
-  "editor.overviewRulerBorder": false,
-  "editor.hideCursorInOverviewRuler": true,
-  "breadcrumbs.enabled": true,
-  "editor.glyphMargin": false,
-  "terminal.integrated.fontFamily": "Hack Nerd Font",
-  "terminal.integrated.fontSize": 14,
-  "editor.cursorBlinking": "smooth",
-  "editor.cursorSmoothCaretAnimation": "on",
-
-  //Complementos del Visual//
-
-  "editor.formatOnSave": true,
+    //Configuración de Extensiones//
   
-
-}
+    "workbench.colorTheme": "Material Theme Ocean High Contrast",
+    "workbench.iconTheme": "icons",
+    "editor.matchBrackets": "never",
+  
+    //Configuración visual del editor//
+  
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.location": "hidden",
+    "workbench.editor.showTabs": "single",
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "breadcrumbs.enabled": true,
+    "editor.glyphMargin": false,
+    "terminal.integrated.fontFamily": "Hack Nerd Font",
+    "terminal.integrated.fontSize": 14,
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "on",
+  
+    //Complementos del Visual//
+  
+    "editor.formatOnSave": true,
+    "github.copilot.editor.enableAutoCompletions": true,
+    
+  
+  }
