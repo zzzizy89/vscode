@@ -22,8 +22,8 @@ Descargar las siguientes extensiones:
 + Github Copilot
 + Image preview
 + Live Server
-+ Material Theme Icons
-+ Catppuccin for VScode
++ Icons
++ Material Theme
 + Path Intellisense
 + Prettier - Code formatter
 + Subtle Match Brackets
