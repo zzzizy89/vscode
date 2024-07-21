@@ -1,30 +1,86 @@
 {
-    //Configuración de Extensiones//
-  
-    "workbench.colorTheme": "Material Theme Ocean High Contrast",
-    "workbench.iconTheme": "icons",
-    "editor.matchBrackets": "never",
-  
-    //Configuración visual del editor//
-  
-    "workbench.sideBar.location": "right",
-    "workbench.activityBar.location": "hidden",
-    "workbench.editor.showTabs": "single",
-    "editor.minimap.enabled": false,
-    "editor.scrollbar.vertical": "hidden",
-    "editor.overviewRulerBorder": false,
-    "editor.hideCursorInOverviewRuler": true,
-    "breadcrumbs.enabled": true,
-    "editor.glyphMargin": false,
-    "terminal.integrated.fontFamily": "Hack Nerd Font",
-    "terminal.integrated.fontSize": 14,
-    "editor.cursorBlinking": "smooth",
-    "editor.cursorSmoothCaretAnimation": "on",
-  
-    //Complementos del Visual//
-  
-    "editor.formatOnSave": true,
-    "github.copilot.editor.enableAutoCompletions": true,
-    
-  
-  }
+  //! Native VSCode settings //
+
+  // Customization of window title bar style
+  "window.titleBarStyle": "custom",
+
+  // Editor settings
+  "editor.matchBrackets": "never",  // Do not highlight matching brackets
+
+  // Sidebar location (left or right)
+  "workbench.sideBar.location": "right",
+
+  // Hide activity bar (files, explorer, etc.)
+  "workbench.activityBar.location": "hidden",
+
+  // Show single tabs in the editor
+  "workbench.editor.showTabs": "single",
+
+  // Disable minimap in the editor
+  "editor.minimap.enabled": false,
+
+  // Vertical scrollbar configuration
+  "editor.scrollbar.vertical": "auto",
+
+  // Disable border in the overview ruler
+  "editor.overviewRulerBorder": false,
+
+  // Hide cursor in the overview ruler
+  "editor.hideCursorInOverviewRuler": true,
+
+  // Disable breadcrumbs
+  "breadcrumbs.enabled": false,
+
+  // Hide glyph margin (used for Git and other indicators)
+  "editor.glyphMargin": false,
+
+  // Font size for integrated terminal
+  "terminal.integrated.fontSize": 14,
+
+  // Enable smooth caret animation
+  "editor.cursorSmoothCaretAnimation": "on",
+
+   // Disable command center
+   "window.commandCenter": false,
+
+   // Compact menu bar visibility
+   "window.menuBarVisibility": "compact",
+ 
+   // Disable layout control in the workbench
+   "workbench.layoutControl.enabled": false,
+ 
+   // Disable indentation guides
+   "editor.guides.indentation": false,
+ 
+   // Line numbers style (interval)
+   "editor.lineNumbers": "interval",
+
+  // Format code automatically on save
+  "editor.formatOnSave": true,
+
+  // Cursor blinking phase animation
+  "editor.cursorBlinking": "phase",
+
+  // Cursor width
+  "editor.cursorWidth": 2,
+
+  //! Extensions adjustments //
+
+  // Workspace color theme
+  "workbench.colorTheme": "Ayu Mirage",
+
+  // Icon theme for the workbench
+  "workbench.iconTheme": "icons",
+
+  // Editor font family
+  "editor.fontFamily": "'cascadia code'",
+
+  // Enable GitHub Copilot autocompletions
+  "github.copilot.editor.enableAutoCompletions": true,
+
+  // PHP executable path for validation
+  "php.validate.executablePath": "c:/xampp/php/php.exe",
+
+  // Window transparency level
+  "glassit.alpha": 255,
+}
