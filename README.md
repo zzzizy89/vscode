@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="showcase/rice.png" alt="urbix" width="1000" height="600">
+  <img src="showcase/rice.png" alt="urbix" width="1000" height="500">
 </p>
 
 ### README
