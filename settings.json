@@ -1,86 +1,54 @@
 {
   //! Native VSCode settings //
-
   // Customization of window title bar style
   "window.titleBarStyle": "custom",
-
   // Editor settings
-  "editor.matchBrackets": "never",  // Do not highlight matching brackets
-
-  // Sidebar location (left or right)
-  "workbench.sideBar.location": "right",
-
-  // Hide activity bar (files, explorer, etc.)
-  "workbench.activityBar.location": "hidden",
-
-  // Show single tabs in the editor
-  "workbench.editor.showTabs": "single",
-
-  // Disable minimap in the editor
+  "editor.matchBrackets": "never", // Do not highlight matching brackets
+  "files.trimTrailingWhitespace": true,
   "editor.minimap.enabled": false,
-
-  // Vertical scrollbar configuration
   "editor.scrollbar.vertical": "auto",
-
-  // Disable border in the overview ruler
   "editor.overviewRulerBorder": false,
-
-  // Hide cursor in the overview ruler
   "editor.hideCursorInOverviewRuler": true,
-
-  // Disable breadcrumbs
   "breadcrumbs.enabled": false,
-
-  // Hide glyph margin (used for Git and other indicators)
   "editor.glyphMargin": false,
-
-  // Font size for integrated terminal
-  "terminal.integrated.fontSize": 14,
-
-  // Enable smooth caret animation
   "editor.cursorSmoothCaretAnimation": "on",
-
-   // Disable command center
-   "window.commandCenter": false,
-
-   // Compact menu bar visibility
-   "window.menuBarVisibility": "compact",
- 
-   // Disable layout control in the workbench
-   "workbench.layoutControl.enabled": false,
- 
-   // Disable indentation guides
-   "editor.guides.indentation": false,
- 
-   // Line numbers style (interval)
-   "editor.lineNumbers": "interval",
-
-  // Format code automatically on save
+  "editor.guides.indentation": false,
+  "editor.lineNumbers": "off",
   "editor.formatOnSave": true,
-
-  // Cursor blinking phase animation
   "editor.cursorBlinking": "phase",
-
-  // Cursor width
   "editor.cursorWidth": 2,
-
+  // Workspace settings
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.decorations.enabled": false,
+  // Sidebar and Activity Bar
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.location": "hidden",
+  "workbench.editor.showTabs": "single",
+  // Terminal settings
+  "terminal.integrated.fontSize": 14,
+  // Tips and help
+  "workbench.tips.enabled": false,
+  // Layout and visibility settings
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "compact",
+  "workbench.statusBar.visible": false,
+  "editor.wordWrap": "wordWrapColumn",
   //! Extensions adjustments //
-
   // Workspace color theme
-  "workbench.colorTheme": "Ayu Mirage",
-
+  "workbench.colorTheme": "Minimal",
   // Icon theme for the workbench
-  "workbench.iconTheme": "icons",
-
+  "workbench.iconTheme": "minimal-icons-without-explorer-arrows",
   // Editor font family
-  "editor.fontFamily": "'cascadia code'",
-
+  "editor.fontFamily": "'JetBrainsMono NF'",
   // Enable GitHub Copilot autocompletions
   "github.copilot.editor.enableAutoCompletions": true,
-
   // PHP executable path for validation
   "php.validate.executablePath": "c:/xampp/php/php.exe",
-
   // Window transparency level
   "glassit.alpha": 255,
+  // Custom CSS for VSCode
+  "vscode_custom_css.imports": [
+    "file://C:/Users/tiago/AppData/Roaming/Code/User/config-vscode.css"
+  ]
 }
