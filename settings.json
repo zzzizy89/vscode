@@ -20,6 +20,7 @@
   // Workspace settings
   "security.workspace.trust.untrustedFiles": "open",
   "git.decorations.enabled": false,
+  "workbench.startupEditor": "none",
   // Sidebar and Activity Bar
   "workbench.sideBar.location": "right",
   "workbench.activityBar.location": "hidden",
